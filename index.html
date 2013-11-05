@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Boostrap Portfolio Theme | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mann Interactive">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 0px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+   	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+    
+    
+    <!-- Full Screen Slider -->
+    <link href="css/slider.css" media="all" rel="stylesheet" type="text/css">
+    
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="js/touchSwipe.min.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+    
+	<!-- initialize the plugin -->
+		<script type="text/javascript">
+			$(function() {
+				$('#slider').slider({
+					//DEFAULTS
+			  slide_class     : 'slide', 
+		      animation_speed : 300,
+		      transition      : 'vertical',
+		      touch_enabled   : true,
+		      auto_rotate	  : true,
+		      rotate_speed	  : 5000,
+		      pause_on_click  : true,
+		      show_controls   : true,
+		      next_id         : 'next',
+		      prev_id         : 'prev'
+				});
+			});
+		</script>
+
+
+  </head>
+
+  <body>
+	<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            Menu
+            
+          </button>
+          <a class="brand" href="index.html"><img src="img/logo.png"></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav pull-right">
+				<li class="active"><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                             <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Pages <b class="caret"></b></a>
+                                  <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                                      <li><a tabindex="-1" href="meet-us.html">Meet Us</a></li>                                      
+                                      <li><a tabindex="-1" href="testimonials.html">Testimonials</a></li>                                      
+                                      <li><a tabindex="-1" href="left-sidebar.html">Left Sidebar</a></li>
+                                      <li><a tabindex="-1" href="right-sidebar.html">Right Sidebar</a></li>
+                                      <li><a tabindex="-1" href="404-error.html">404 Page</a></li>                                   
+                      </ul>
+              		</li> 
+                <li><a href="portfolio.html">Portfolio</a></li>    
+                <li><a href="features.html">Features</a></li>
+                <li class="dropdown">
+                	<a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Blog <b class="caret"></b></a>
+                                  <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                                      <li><a tabindex="-1" href="blog-right-sidebar.html">Blog Right Sidebar</a></li> 
+                                      <li><a tabindex="-1" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>                                     
+                                                                         
+                                  </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div id="slider">
+        <div id="slides">
+        
+         <div class="slide" style="background-image:url(img/photos/9110105324_d3cf712d7d_k.jpg);">
+         		
+                <p class="slide-title"><span class="slide-lead">Stockholm a beautiful all purpose bootstrap theme.</span>  Featuring a full screen responsive touch enabled slider.  Great to display your projects, images, and videos.</p>
+                
+            </div>
+        
+        <div class="slide" style="background-image:url(img/photos/10575116865_15ee6e50ef_k.jpg);">
+                <p class="slide-title"><span class="slide-lead">Build Something Great!</span> <br> Includes over 10 clean and well designed pages and comes packed with features that will allow you to build a modern and stylized website for your business or portfolio. <br> <br>
+                  <a href="features.html">
+                  <button class="btn btn-primary" type="button">Check out the features <i class="icon-chevron-right icon-white"></i></button>
+                  </a>
+                 
+                </p>
+            </div>
+            
+            
+            <div class="slide" style="background-image:url(img/photos/9285258803_5b95c7318a_k.jpg);">
+               <div id="slide-content">
+								<h1 class="slide-lead">We Love What We Do!</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus purus sit amet risus rhoncus commodo. Nunc est tortor, luctus in interdum ac, blandit et tellus. Curabitur varius eros et metus vestibulum facilisis. Donec ut leo ac nisl gravida tempor id vitae turpis. Nam faucibus lacinia magna. Aliquam erat volutpat. Aliquam porta nunc in purus sagittis eu rutrum quam rutrum. Phasellus suscipit porta justo ac condimentum. Cras ultricies, ipsum in volutpat luctus, metus metus adipiscing purus, vel venenatis massa sem ut purus. Vestibulum non lorem felis, vel cursus risus. Etiam sagittis, quam eu auctor tempor, orci dolor iaculis dui, sed eleifend eros eros sed purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									
+								</p>
+								
+                                <button class="btn btn-large btn-success" type="button">Purchase Now <i class="icon-circle-arrow-down icon-white"></i></button>
+							</div>
+            </div>
+            
+            <div class="slide" style="background-image:url(img/photos/9110225516_cc7eb7fbbb_k.jpg);">
+                <p class="slide-title"><span class="slide-lead">Stockholm is fully responsive! </span> <br> No matter where the site is being viewed it will respond to the screen size for the optimum viewing experience.</p>
+            </div>
+            
+           
+            
+             
+            
+                      
+            
+            <!-- add as many slides as you want -->
+        </div>
+        
+        <div id="slider-controls" class="hide-mobile">
+            <a href="" id="prev"></a>
+            <a href="" id="next"></a>
+        </div>
+	</div>
+    
+
+    <div class="container">
+    
+    
+
+
+     	
+</div> <!-- /container -->
+    
+    
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+     
+     <script src="js/bootstrap.js"></script>
+     
+     
+     
+
+  </body>
+</html>
