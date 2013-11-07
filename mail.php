@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>MANN Interactive</title>
+    <title>Stockholm</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Starter Twitter Bootstrap Template. This starter template is a great place to start your Bootstrap Projects.">
-    <meta name="author" content="LittleSparkVT">
 
     <!-- Style sheets -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -51,26 +50,14 @@
             <div class="navbar-inner">
                 <div class="container">
 
-                    <a class="btn btn-navbar btntop" data-toggle="collapse" data-target=".nav-collapse">NAVIGATION</a>
-
-
+                   
                     <h1 class="brand hidden-phone hidden-tablet">
                         <a href="index.html">
-                            <img src="img/logo.jpg">
+                            <img src="img/logo.png">
                         </a>                            
                     </h1>
             
-                    <div class="nav-collapse">
-                        <ul class="nav pull-right">
-                          <li><a href="index.html" class="active">Home</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="portfolio.html">Portfolio</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                          <li><a href="http://blog.mmfvd.com">Blog</a></li>
-                          <li><a href="http://login.manninteractive.com">Log in</a></li>
-                          
-                        </ul>
-                    </div>
+                    
 
                 </div>
             </div>
