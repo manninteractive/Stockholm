@@ -116,9 +116,9 @@
 .large-btns_tabs a {
   text-indent: -9999px;
   overflow: hidden;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
   background: #ccc;
   background: rgba(0,0,0, .2);
   display: inline-block;
@@ -134,6 +134,6 @@
 .centered-btns_here a,
 .transparent-btns_here a,
 .large-btns_here a {
-  background: #222;
-  background: rgba(0,0,0, .8);
+  background: #D45858;
+  background: #D45858;
   }
