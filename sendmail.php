@@ -14,8 +14,8 @@ $subject = "A new message on your website";
    print nl2br("Your message was sent successfully!");
 
 
-// Replace  michael@manninteractive.com with your email 
-  mail('michael@manninteractive.com', $subject, $msg, $headers);    
+// Replace  your@emailaddress.com with your email 
+  mail('your@emailaddress.com', $subject, $msg, $headers);    
 
  ?>
  
