@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -25,12 +25,36 @@
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
     <link rel="shortcut icon" href="ico/favicon.png">
     
-    
+    <style type="text/css">
+
+
+input.parsley-success, textarea.parsley-success {
+    color: #468847 !important;
+    background-color: #DFF0D8 !important;
+    border: 1px solid #D6E9C6 !important;
+}
+input.parsley-error, textarea.parsley-error {
+    color: #B94A48 !important;
+    background-color: #F2DEDE !important;
+    border: 1px solid #EED3D7 !important;
+}
+
+ul.parsley-error-list {
+    font-size: 17px;
+    color: #B94A48 !important;
+    list-style-type:none;
+    margin: 0;
+    position: relative;
+    top: 0px;
+}
+
+</style>
+
   
     
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	
+	<script src="js/parsley.min.js"></script>
 	
 
 
@@ -100,27 +124,27 @@
 			  </div> 
 
         	</div>
-            
+       <form action="sendmail.php" method="post" id="contact-form" data-validate="parsley" novalidate> 
           <div class="row-fluid">
           		<div class="span8">
                 	<h3>Send us a Message</h3>
                 		<div class="input-prepend">
   							<span class="add-on"><i class="icon-user"></i></span>
- 								 <input class="span10" id="prependedInput" type="text" placeholder="Your Name">
+ 								 <input class="span10" id="name" type="text" placeholder="Your Name" maxlength="100" name="name" data-required="true" >
 				  </div> 
                             
                             
                          <div class="input-prepend">
   							<span class="add-on"><i class="icon-envelope"></i></span>
- 								 <input class="span10" id="prependedInput" type="text" placeholder="Your Email">
+ 								 <input type="text" class="span10 input-text m-wrap m-ctrl-large" id="email" name="email" data-type="email" data-required="true" data-required-message="Did you enter your e-mail address?" data-type-email-message="Please enter your e-mail address in format: name@domain.com" placeholder="Your Email">
 				  </div>
-                            
+                          
                          
                        
-            <textarea class="span12" rows="8" placeholder="Write your message here..."></textarea><br>
-                        <button class="btn-large btn-primary" type="button" >Send</button>
+            <textarea class="span12" rows="8" placeholder="Write your message here...(1000 characters max)"  id="message" name="message" maxlength="1000"></textarea><br>
+                        <button class="btn-large btn-primary" input type="submit" value="Submit">Send</button>
                 </div>
-                
+                   </form>  
                 
                 <div class="span4 hidden-phone social">
        	  		  <h3>Connect With Us</h3>
