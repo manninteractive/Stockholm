@@ -97,3 +97,24 @@
 		
 }
 
+@media (max-width: 480px) {
+  .slide-lead {
+  font-size:18px;
+  font-weight:200;
+  color:#D45858;
+  line-height: 24px;
+}
+.slide-title {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  background: rgba(32, 32, 32, 0.78);
+  color: #fff;
+  padding: 20px;
+  max-width: 50%;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 20px;
+  z-index: 1;
+}
+
