@@ -97,7 +97,7 @@
 		
 }
 
-@media (max-width: 480px) {
+@media (max-width: 568px) {
   .slide-lead {
   font-size:18px;
   font-weight:200;
@@ -117,4 +117,5 @@
   line-height: 20px;
   z-index: 1;
 }
+
 
